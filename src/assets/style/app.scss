@@ -6,6 +6,10 @@
 @import "./list.scss";
 @import "./fileupload.scss";
 @import "./modal.scss";
+@import "./bootstrap.css";
+@import "./froala.css";
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
 
 #plekan{
   position: fixed;
@@ -65,4 +69,9 @@
   &.save{
     background-color: #4EA81E;
   }
+}
+
+
+._plekan_list {
+  overflow-y: scroll;
 }

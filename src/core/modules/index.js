@@ -7,6 +7,21 @@ import plekanmodule6 from './plekanmodule6';
 import plekanmodule7 from './plekanmodule7';
 import plekanmodule8 from './plekanmodule8';
 
+
+
+/**
+ *  Froala elements
+ */
+
+import content1 from './content1';
+import content2 from './content2';
+import contact from './contact';
+import callaction1 from './callaction1';
+
+import feature1 from './feature1';
+import feature2 from './feature2';
+
+
 // eslint-disable-next-line
 const modules = [
   {
@@ -57,6 +72,42 @@ const modules = [
     thumbnail: 'plekanmodule8.png',
     context: plekanmodule8,
   },
+  {
+    name: 'content1',
+    group: 'content',
+    thumbnail: 'content1.jpg',
+    context: content1,
+  },
+  {
+    name: 'content2',
+    group: 'content',
+    thumbnail: 'content2.jpg',
+    context: content2,
+  },  
+  {
+    name: 'contact',
+    group: 'Contacts',
+    thumbnail: 'contact.jpg',
+    context: contact,
+  },
+  {
+    name: 'callaction1',
+    group: 'Call to action',
+    thumbnail: 'callaction1.jpg',
+    context: callaction1,
+  },
+  {
+    name: 'feature1',
+    group: 'Features',
+    thumbnail: 'feature1.jpg',
+    context: feature1,
+  },
+  {
+    name: 'feature2',
+    group: 'Features',
+    thumbnail: 'feature2.jpg',
+    context: feature2,
+  }           
 ];
 
 export default modules;

@@ -35,6 +35,10 @@ export default {
     },
   },
   mounted() {
+
+    console.log("components list:")
+    console.log(this.list);
+
     /*
     * Sortable options init
     */
